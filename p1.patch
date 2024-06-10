@@ -1,0 +1,23 @@
+diff --git a/first assignment b/first assignment
+new file mode 160000
+index 0000000..ef35bfe
+--- /dev/null
++++ b/first assignment	
+@@ -0,0 +1 @@
++Subproject commit ef35bfe9ac7399ec166573b4b2b4ca5ae7aad62b
+diff --git a/t1.txt b/t1.txt
+deleted file mode 100644
+index 4f60eb8..0000000
+--- a/t1.txt
++++ /dev/null
+@@ -1 +0,0 @@
+-etra file
+diff --git a/t2.txt b/t2.txt
+deleted file mode 100644
+index e69de29..0000000
+diff --git a/t3.txt b/t3.txt
+deleted file mode 100644
+index e69de29..0000000
+diff --git a/t4.txt b/t4.txt
+deleted file mode 100644
+index e69de29..0000000
