@@ -1,13 +1,20 @@
-with open('example.txt', 'w+') as file:
-  
-   # Write data to the file
-   file.write('Hello, World!')
-    
-   # Move the file pointer to the beginning of the file
-   file.seek(0)
-    
-   # Read the contents of the file
-   contents = file.read()
-    
-   # Print the contents of the file
-   print(contents)
+# while True:
+#     try:
+#         x = int(input("Please enter a number: "))
+#         break
+#     except ValueError:
+#         print("Oops!  That was no valid number.  Try again...")
+
+class A:
+    def f1(self):
+        print("class A")
+class B:
+    def f1(self):
+        print("class B")
+
+class C(B,A):
+    def fun(self):
+        print("helo")
+c=C()
+C.mro()
+print(C.mro())
